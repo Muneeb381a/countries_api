@@ -13,7 +13,7 @@ const ErrorPage = () => {
         </p>
         <a href="/" className="error-button">
           Go Back Home
-        </a>
+         </a>
         <div className="hidden">{error & <p>{error.data}</p>}</div>
       </div>
     </div>
