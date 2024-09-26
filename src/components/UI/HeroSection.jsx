@@ -18,7 +18,7 @@ const HeroSection = () => {
         </div>
         <div className="hero-image">
           <img
-            src="/images/world.png"
+            src="/globe.png"
             alt="world is beauty"
             className="banner-image"
           />

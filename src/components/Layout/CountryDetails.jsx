@@ -2,6 +2,7 @@ import { useEffect, useState, useTransition } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { getCountryIndData } from "../../api/postApi";
 import { Loader } from "../UI/Loader";
+import { IoArrowBackOutline } from "react-icons/io5";
 
 export const CountryDetails = () => {
   const params = useParams();
@@ -83,7 +84,7 @@ export const CountryDetails = () => {
         )}
         <div className="country-card-backBtn">
           <NavLink to="/country" className="backBtn">
-            <button>Go Back</button>
+            <button className="back-button"><IoArrowBackOutline /></button>
           </NavLink>
         </div>
       </div>

@@ -2,16 +2,16 @@
     {
       "icon": "MdPlace",
       "title": "Find us",
-      "details": "Pune, Maharashtra"
+      "details": "Faislabad"
     },
     {
       "icon": "IoCallSharp",
       "title": "Call us",
-      "details": "9876543211"
+      "details": "0000000000"
     },
     {
       "icon": "TbMailPlus",
       "title": "Mail us",
-      "details": "contact@kodyfier.com"
+      "details": "examle@email.com"
     }
   ]

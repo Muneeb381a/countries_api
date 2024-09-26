@@ -1,11 +1,16 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+
 import "./App.css";
-import Home from "./pages/Home";
+
+
+import { CountryDetails } from "./components/Layout/CountryDetails";
 import About from "./pages/About";
-import Country from "./pages/Country";
-import Contact from "./pages/Contact";
 import AppLayout from "./components/Layout/AppLayout";
+import Contact from "./pages/Contact";
+import Country from "./pages/Country";
 import ErrorPage from "./pages/ErrorPage";
+import Home from "./pages/Home";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +20,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />, // Correct JSX syntax
+        element: <Home />,
       },
       {
         path: "about",
@@ -26,6 +31,10 @@ const router = createBrowserRouter([
         element: <Country />,
       },
       {
+        path: "country/:id",
+        element: <CountryDetails />,
+      },
+      {
         path: "contact",
         element: <Contact />,
       },
@@ -34,7 +43,7 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return <RouterProvider router={router}></RouterProvider>;
+  return <RouterProvider router={router}> </RouterProvider>;
 };
 
 export default App;
