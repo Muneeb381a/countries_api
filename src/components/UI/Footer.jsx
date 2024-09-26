@@ -49,7 +49,7 @@ export const Footer = () => {
 
                 <li>
                   <NavLink
-                    to="https://www.instagram.com/thapatechnical/"
+                    to=""
                     target="_blank"
                   >
                     Social
@@ -57,7 +57,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://thapatechnical.shop/source-code"
+                    to=""
                     target="_blank"
                   >
                     Source Code
